@@ -1,0 +1,14 @@
+input{
+  display: block;
+  margin: 15px;
+}
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.inner{
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
