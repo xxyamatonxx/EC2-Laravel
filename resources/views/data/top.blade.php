@@ -30,6 +30,7 @@
       <input type="submit" value="削除">
   </div>
   </form>
+  <p>うんここここここっここここここここここ</p>
   @endforeach
 </div>
 @endsection
