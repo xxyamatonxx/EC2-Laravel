@@ -23,7 +23,7 @@
   @foreach($posts as $post)
   <div class="content col-md-12 border border-primary rounded m-1 ">
     <p> タイトル：{{$post->title}}</p>
-     <p>記事:{!! nl2br(e($post->body)) !!}</p>
+    <p>記事:{!! nl2br(e($post->body)) !!}</p>
     <a href="{{route('detail',$post->id)}}">詳細・コメントをする</a>
     <form action="/delete/{{$post->id}}" method="post">
       @csrf
