@@ -30,7 +30,7 @@
       <input type="submit" value="削除">
   </div>
   </form>
-  <p>うんここここここっここここここここここ</p>
+  <p>かかか</p>
   @endforeach
 </div>
 @endsection
